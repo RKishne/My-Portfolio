@@ -499,3 +499,146 @@ a>li:hover{
   .lower-right-foot-container>a>h4{
     color: #666;
   }
+  @media only screen and (max-width:600px){
+    .header-container{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .menus-container>ul,.btn{
+      visibility: hidden;
+    }
+    .menu-icon{
+      border: 2px solid rgba(128, 128, 128, 0.472);
+      visibility: visible;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 40px;
+      border-radius: 10px;
+    }
+    .menu-icon:hover{
+      transform: scale(1.2);
+    }
+    .menu-icon>a>i{
+      visibility: visible;
+    }
+    .top-contact-main-container{
+      height: 300px;
+    }
+    .upper-main-container{
+      width: 80%;
+      height: 40%;
+    }
+    .lower-main-container{
+      width: 90%;
+      height: 20%;
+    }
+    .service-detail-container{
+      width: 100vw;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+    }
+    .service-detail-div{
+      width: 90%;
+      height: 30%;
+    }
+    .service-point-heading{
+      width: 100%;
+    }
+    .sph-div{
+      width: 80%;
+    }
+    .sph-down-arrow-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .service-point-details-div{
+      width: 100%;
+      padding: 20px;
+    }
+    .how-it-works{
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+    }
+    .hiw-left-div{
+      width: 90%;
+      height: 40%;
+    }
+    .hiw-right-div{
+      width: 90%;
+      height: 40%;
+    }
+    .pricing-section{
+      height: 2000px;
+    }
+    .pricing-header-container{
+      width: 90%;
+      height: 20%;
+    }
+    .pricing-header-container>p{
+      text-align: center;
+    }
+    .pricing-header-container>h1{
+      width: 80%;
+      height: 50%;
+      text-align: center;
+    }
+    .pricing-cards-container{
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .pricing-card{
+      width: 80%;
+      height: 90%;
+    }
+    .card-upper-part{
+      height: 14%;
+    }
+    .card-middle-part{
+      height: 72%;
+    }
+
+    .card-bottom-part{
+      height: 14%;
+    }
+    .foot-container{
+      height: 800px;
+    }
+    .foot-upper-container{
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+    }
+    .foot-div{
+      width: 70%;
+    }
+    .foot-1-div>img{
+      width: 80%;
+      height: 80%;
+    }
+    .foot-lower-container{
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+    }
+    .lower-left-foot-container{
+      width: 80%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .lower-right-foot-container{
+      width: 90%;
+
+    } 
+  }
