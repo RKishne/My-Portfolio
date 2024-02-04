@@ -55,6 +55,20 @@ a>li:hover{
   color: white;
   visibility: hidden;
 }
+.cross-icon{
+  width: 50px;
+  height: 40px;
+}
+.cross-icon>a>i{
+  color: white;
+  visibility: hidden;
+}
+.menu-section{
+  display: none;
+}
+.menu-section>ul>a>li{
+ display: none;
+}
 .section-1{
     width: 100%;
     height: 800px;
@@ -1135,6 +1149,35 @@ a>li:hover{
     .menu-icon>a>i{
       visibility: visible;
     }
+    .cross-icon{
+      border: 2px solid rgba(128, 128, 128, 0.806);
+      visibility: visible;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 40px;
+      border-radius: 10px;
+    }
+    .cross-icon:hover{
+      transform: scale(1.2);
+    }
+    .cross-icon>a>i{
+      visibility: visible;
+    }
+    .menu-section{
+      width: 100vw;
+      height: 300px;
+      background-color: #28293E; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: none;
+    }
+    .menu-section>ul>a>li{
+      display: block;
+      padding-block: 20px;
+    }  
     .section-1{
       height: 1400px;
       display: flex;
@@ -1389,4 +1432,5 @@ a>li:hover{
       width: 90%;
 
     }
+    
   }
